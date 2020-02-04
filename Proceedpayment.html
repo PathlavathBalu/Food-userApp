@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../user App/myAccount/payment.css">
+    <link rel="stylesheet" href="viewcart.css">
+    <title>Proceed to pay</title>
+</head>
+
+<body>
+    <div>
+        <span class="d-flex my-3 border-bottom">
+            <a href="proceed-topay.html" class="nav-link text-secondary"><i class="fas fa-arrow-left"></i></a>
+            <p class="font-weight-bold mt-2">PAYMENTS <br>
+                <span class="most">3 items, To pay:<i class="fas fa-rupee-sign rupee"></i>3025</span>
+            </p>
+        </span>
+        <div style="margin-bottom: -14px;"></div>
+        <p class="py-3 px-3 most cards">CREDIT/DEBIT CARDS</p>
+        <a href="addnewcard.html" class="nav-link">
+            <span class="text-success font-weight-bold"><i
+                    class="fa fa-plus plus border border-success px-3 py-1 text-success" aria-hidden="true"></i> <b
+                    class="ml-4 detail">ADD NEW CARD</b></span>
+            <p class="most ml-5 pl-3 mt-2">save and pay via Cards</p>
+            <span class="most payment px-5">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard px-3"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-paypal px-3"></i>
+            </span>
+        </a>
+        <hr>
+        <div style="margin-bottom: -14px;"></div>
+        <p class="py-3 px-3 most cards">UPI</p>
+        <span class="font-weight-bold ml-3"><img src="../user App/myAccount/image/phonepe.png" class="img-fluid phonepe">
+            Phonepe</span>
+        <hr>
+        <a href="addnewcard-upi.html" class="nav-link">
+            <span class="text-success font-weight-bold"><i
+                    class="fa fa-plus plus border border-success px-3 py-1 text-success" aria-hidden="true"></i> <b
+                    class="ml-4 detail">ADD NEW CARD</b></span>
+            <p class="most ml-5 mt-2">You need to have a registered UPI ID</p>
+        </a>
+        <div style="margin-bottom: -14px;"></div>
+        <p class="py-3 px-3 most cards">WALLET</p>
+        <div>
+            <a href="#myAdd" class="nav-link" data-toggle="modal" data-target="#myAdd">
+                <span><img src="../user App/myAccount/image/freecharge.png" class="img-fluid img"></span>
+                <span class="text-dark free mx-2">Freecharge</span>
+                <span class="link font-weight-bold float-right text-success">LINK ACCOUNT</span>
+            </a>
+            <hr>
+            <a href="#myAdd1" class="nav-link" data-toggle="modal" data-target="#myAdd1">
+                <span><img src="../user App/myAccount/image/mobikwik.png" class="img-fluid img"></span>
+                <span class="text-dark free mx-2">Mobikwik</span>
+                <span class="link font-weight-bold float-right text-success">LINK ACCOUNT</span>
+            </a>
+            <hr>
+            <a href="#myAdd2" class="nav-link" data-toggle="modal" data-target="#myAdd2">
+                <span><img src="../user App/myAccount/image/paytm1.png" class="img-fluid img1"></span>
+                <span class="text-dark free mx-2">Paytm</span>
+                <span class="link font-weight-bold float-right text-success">LINK ACCOUNT</span>
+            </a>
+            <hr>
+            <a href="#myAdd3" class="nav-link" data-toggle="modal" data-target="#myAdd3">
+                <span><img src="../user App/myAccount/image/phonepe.png" class="img-fluid img"></span>
+                <span class="text-dark free mx-2">phonepe</span>
+                <span class="link font-weight-bold float-right text-success">LINK ACCOUNT</span>
+            </a>
+            <hr>
+            <a href="#myAdd4" class="nav-link" data-toggle="modal" data-target="#myAdd4">
+                <span><img src="../user App/myAccount/image/amazon1.jpeg" class="img-fluid img"></span>
+                <span class="text-dark free mx-2">Amazon Pay</span>
+                <span class="link font-weight-bold float-right text-success">LINK ACCOUNT</span>
+            </a>
+            <hr>
+        </div>
+        <div style="margin-bottom: -14px;"></div>
+        <p class="py-3 px-3 most cards">NETBANKING</p>
+        <div class="row container-fluid px-4">
+            <div class="col-3"><img src="img/sbilogo.webp" class="img-fluid w-75 mx-3"></div>
+            <div class="col-3"><img src="img/icici1.png" class="img-fluid w-75 mx-4"></div>
+            <div class="col-3"><img src="img/axis-bank1.jpg" class="img-fluid w-75 mx-4"></div>
+            <div class="col-3"><img src="img/uba.png" class="img-fluid w-75 mx-4"></div>
+        </div>
+        <hr>
+        <a href="#myNetbank" class="nav-link text-success font-weight-bold" data-toggle="modal" data-target="#myNetbank">MORE BANKS <i class="fas fa-chevron-right float-right most"></i></a>
+        <p class="py-3 px-3 most cards">FOOD CARDS</p>
+        <a href="addnewcard-food.html" class="nav-link">
+            <span class="text-success font-weight-bold"><i
+                    class="fa fa-plus plus border border-success px-3 py-1 text-success" aria-hidden="true"></i> <b
+                    class="ml-4 detail">ADD NEW FOOD CARD</b></span>
+            <p class="most ml-5 pl-3 mt-2">save and pay via  any food Cards</p>
+            <span class="most payment px-5">
+              <img src="img/zeta.jpeg" class="img-fluid foodcard">
+              <img src="img/ticket.jpeg" class="img-fluid foodcard">
+              <img src="img/sodex.jpeg" class="img-fluid foodcard">
+            </span>
+        </a>
+        <p class="py-3 px-3 most cards">PAY ON DELIVERY</p>
+        <div>
+            <span class="font-weight-bold detail">
+                <img src="img/cash.jpeg" class="img-fluid location"> Cash  <br>
+                <small class="most ml-5 rupee">We are unable to serve COD</small>
+            </span>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="myAdd">
+            <div class="modal-dialog modal-dialog-centered px-3">
+                <div class="modal-content px-2">
+                    <img src="../user App/myAccount/image/freecharge.png" class="img-fluid img m-4">
+                    <p class="mx-2 Wallet">Link Freecharge Wallet associated with this number</p>
+                    <h4 class="font-weight-bold mx-2">+91 6300754783</h4>
+                    <small class="mx-2 Wallet">If you don't have account,we'll create one for you</small>
+                    <div class="d-flex justify-content-end font-weight-bold my-4">
+                        <a href="Proceedpayment.html" class="nav-link link font-weight-bold">CANCEL</a>
+                        <a href="proceeding1.html" class="mx-2 nav-link link font-weight-bold">PROCEED</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal1 -->
+        <div class="modal fade" id="myAdd1">
+            <div class="modal-dialog modal-dialog-centered px-3">
+                <div class="modal-content px-2">
+                    <img src="../user App/myAccount/image/mobikwik.png" class="img-fluid img m-4">
+                    <p class="mx-2 Wallet">Link mobikwik Wallet associated with this number</p>
+                    <h4 class="font-weight-bold mx-2">+91 6300754783</h4>
+                    <small class="mx-2 Wallet">If you don't have account,we'll create one for you</small>
+                    <div class="d-flex justify-content-end font-weight-bold my-4">
+                        <a href="Proceedpayment.html" class="nav-link link font-weight-bold">CANCEL</a>
+                        <a href="proceeding2.html" class="mx-2 nav-link link font-weight-bold">PROCEED</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal2 -->
+        <div class="modal fade" id="myAdd2">
+            <div class="modal-dialog modal-dialog-centered px-3">
+                <div class="modal-content px-2">
+                    <img src="../user App/myAccount/image/paytm1.png" class="img-fluid img1 m-4">
+                    <p class="mx-2 Wallet">Link Paytm Wallet associated with this number</p>
+                    <h4 class="font-weight-bold mx-2">+91 6300754783</h4>
+                    <small class="mx-2 Wallet">If you don't have account,we'll create one for you</small>
+                    <div class="d-flex justify-content-end font-weight-bold my-4">
+                        <a href="Proceedpayment.html" class="nav-link link font-weight-bold">CANCEL</a>
+                        <a href="proceeding3.html" class="mx-2 nav-link link font-weight-bold">PROCEED</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal3 -->
+        <div class="modal fade" id="myAdd3">
+            <div class="modal-dialog modal-dialog-centered px-3">
+                <div class="modal-content px-2">
+                    <img src="../user App/myAccount/image/phonepe.png" class="img-fluid img m-4">
+                    <p class="mx-2 Wallet">Link phonepe Wallet associated with this number</p>
+                    <h4 class="font-weight-bold mx-2">+91 6300754783</h4>
+                    <small class="mx-2 Wallet">If you don't have account,we'll create one for you</small>
+                    <div class="d-flex justify-content-end font-weight-bold my-4">
+                        <a href="Proceedpayment.html" class="nav-link link font-weight-bold">CANCEL</a>
+                        <a href="proceeding4.html" class="mx-2 nav-link link font-weight-bold">PROCEED</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal4 -->
+        <div class="modal fade" id="myAdd4">
+            <div class="modal-dialog modal-dialog-centered px-3">
+                <div class="modal-content px-2">
+                    <img src="../user App/myAccount/image/amazon1.jpeg" class="img-fluid img1 m-4">
+                    <p class="mx-2 Wallet">Link Amazon Pay Wallet associated with this number</p>
+                    <h4 class="font-weight-bold mx-2">+91 6300754783</h4>
+                    <small class="mx-2 Wallet">If you don't have account,we'll create one for you</small>
+                    <div class="d-flex justify-content-end font-weight-bold my-4">
+                        <a href="Proceedpayment.html" class="nav-link link font-weight-bold">CANCEL</a>
+                        <a href="proceeding5.html" class="mx-2 nav-link link font-weight-bold">PROCEED</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NETBANKING -->
+        <!-- Modal4 -->
+        <div class="modal fade" id="myNetbank">
+                <div class="modal-dialog modal-dialog px-3">
+                    <div class="modal-content px-2">
+                        <h4 class="border-bottom py-3">Select Bank</h4> 
+                        <p class="font-weight-bold">Allahabad Bank</p>
+                        <p class="font-weight-bold">Axis Bank</p>
+                        <p class="font-weight-bold">Bank of India</p>
+                        <p class="font-weight-bold">Bank of Maharashtra</p>
+                        <p class="font-weight-bold">Canara Bank</p>
+                        <p class="font-weight-bold">Central Bank of India</p>
+                        <p class="font-weight-bold">City Union</p>
+                        <p class="font-weight-bold">Corporation Bank</p>
+                        <p class="font-weight-bold">DENA Bank</p>
+                        <p class="font-weight-bold">Deutsche Bank</p>
+                        <p class="font-weight-bold">Development credit Bank</p>
+                        <p class="font-weight-bold">Dhanalaxmi Bank</p>
+                        <p class="font-weight-bold">Federal Bank</p>
+                        <p class="font-weight-bold">ICICI Bank</p>
+                        <p class="font-weight-bold">ING Vysya Bank</p>
+                        <p class="font-weight-bold">Indian Bank</p>
+                        <p class="font-weight-bold">Indian Overseas Bank</p>
+                        <p class="font-weight-bold">Indusland Bank</p>
+                        <p class="font-weight-bold">Industrial Development Bank</p>
+                        <p class="font-weight-bold">Jammu and Kashmir Bank</p>
+                        <p class="font-weight-bold">Janata Sahakari Bank</p>
+                        <p class="font-weight-bold">Karnataka Bank</p>
+                        <p class="font-weight-bold">Karur Bank</p>
+                        <p class="font-weight-bold">Kotak Bank</p>
+                        <p class="font-weight-bold">Lakshmi Vilas Bank Retail</p>
+                        <p class="font-weight-bold">North Kanara Bank</p>
+                        <p class="font-weight-bold">Punjab and Sind Bank</p>
+                        <p class="font-weight-bold">Ratnakar Bank</p>
+                        <p class="font-weight-bold">Royal Bank of Scotland</p>
+                        <p class="font-weight-bold">South Indian Bank</p>
+                        <p class="font-weight-bold">State Bank Of Bikaner and Jaipur</p>
+                        <p class="font-weight-bold">State Bank India</p>
+                        <p class="font-weight-bold">Syndicate Bank</p>
+                        <p class="font-weight-bold">UCO Bank</p>
+                        <p class="font-weight-bold">Union Bank of India</p>
+                        <p class="font-weight-bold">United Bank Of India</p>
+                        <p class="font-weight-bold">Vijaya Bank</p>
+                        <p class="font-weight-bold">Yes Bank</p>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

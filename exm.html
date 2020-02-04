@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   
+
+   
+    <script>
+      $(document).ready(function() {
+        $(".slider-nav").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+
+          focusOnSelect: true
+        });
+
+        $("a[data-slide]").click(function(e) {
+          e.preventDefault();
+          var slideno = $(this).data("slide");
+          $(".slider-nav").slick("slickGoTo", slideno - 1);
+        });
+      });
+    </script>
+
+    <style>
+      body {
+        background: #ccc;
+      }
+      .main {
+        font-family: Arial;
+        width: 90%;
+        display: block;
+      }
+      h3 {
+        background: #fff;
+        color: #3498db;
+        font-size: 36px;
+        line-height: 100px;
+        margin: 10px;
+        /* padding: 2%; */
+        position: relative;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <div class="main">
+      <div class="slider slider-nav">
+        <div><h3>1</h3>
+          <h3>2</h3>
+         </div>
+        <div><h3>2</h3></div>
+        <div><h3>3</h3></div>
+        <div><h3>4</h3></div>
+        <div><h3>5</h3></div>
+      </div>
+      
+    </div>
+    </div>
+  </body>
+</html>

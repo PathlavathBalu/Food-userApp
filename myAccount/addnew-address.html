@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Add New Address</title>
+    <link rel="stylesheet" href="myAccount.css">
+    <link rel="stylesheet" href="edit.css">
+</head>
+
+<body>
+    <a href="manageAddress.html" class="text-secondary ml-3">
+        <i class="fas fa-arrow-left mt-2"></i>
+    </a>
+    <main class=" m-0 p-0">
+        <div class="container-fluid m-0 p-0">
+
+            <!--Google map-->
+            <div id="map-container-google-4" class="z-depth-1-half map-container-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30447.45117608895!2d78.33888248343416!3d17.46299733035984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93c92849a36b%3A0xde0dc034905512fa!2sKondapur%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1567677620553!5m2!1sen!2sin"
+                    frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="mt-2 mx-2">
+                <span>
+                    <i class="fas fa-map-marker-alt"></i> <b class="location">Kothaguda</b>
+                    <a href="changelocation.html" class="border border-secondary float-right mx-2 px-2"><small
+                            class="text-success font-weight-bold change">CHANGE</small>
+                    </a>
+                </span>
+                <p class="text">Silpa Park,Hafeezpet,Hyderabad, <br>
+                    Telangana 500084,India(Kothaguda)
+                </p>
+            </div>
+            <div class="mx-2">
+                <label class="label">HOUSE/FLAT/BLOCK NO</label>
+                <input type="text" class="text mb-4 w-100">
+            </div>
+
+            <div class="mx-2">
+                <label class="label">LANDMARK</label>
+                <input type="text" class="text mb-2 w-100">
+            </div>
+            <p class="label mt-2">SAVE AS</p>
+            <div class="d-flex mb-3">
+                <a href="addnew-address.html" class="nav-link text-dark">
+                    <i class="fas fa-home"></i>
+                    <span class="font-weight-bold save">Home</span>
+                    <div class="border-bottom border-dark"></div>
+                </a>
+                <a href="addnew-address.html" class="nav-link text-dark mx-3">
+                    <i class="fas fa-briefcase"></i>
+                    <span class="font-weight-bold save">Work</span>
+                    <div class="border-bottom border-dark"></div>
+                </a>
+                <a href="addnew-address.html" class="nav-link text-dark">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="font-weight-bold save">Others</span>
+                    <div class="border-bottom border-dark"></div>
+                </a>
+
+            </div>
+            <a href="manageAddress.html" class="btn  btn-success text-white font-weight-bold mx-2 py-2  addnew">ENTER HOUSE / FLAT / BLOCK / BLOCK NO</a>
+        </div>
+    </main>
+
+</body>
+
+</html>

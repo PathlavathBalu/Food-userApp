@@ -1,0 +1,77 @@
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    background: #f7f8fc;
+}
+.head { 
+    top: -1%; 
+   
+}
+.text1 {
+    color: #000;
+}
+.location {
+  font-size: 17px;
+}
+.icon {
+    font-size: 25px;
+}
+.all {
+    background: #e05d46;
+}
+.view {
+    background: #da563d;
+}
+.badge {
+    position: absolute;
+    top: 36%;
+    background: #8e481e;
+    font-size: 14px;
+}
+.sides {
+    height: 85px;
+}
+.text {
+    color: #000;
+    font-size: 15px;
+}
+.most {
+    color: #7d7e84;
+}
+.carousel-item {
+    height: 190px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: 0px;
+}
+.foods {
+    width: 30%;
+    height: 90px;
+}
+.fa-star {
+    font-size: 10px;
+}
+.fa-rupee-sign {
+    font-size: 12px;
+}
+h5 {
+    font-size: 17px;
+}
+.exclusive {
+    font-size: 13px;
+}
+.allrestaurant {
+    width: 95%;
+    background: #8e481e;
+    font-size: 20px;
+}
+
+.addcart {
+    font-size: 18px;
+}

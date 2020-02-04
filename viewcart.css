@@ -1,0 +1,70 @@
+.foods {
+    width: 20%;
+    height: 75px;
+}
+h5 {
+    font-size: 20px;
+}
+.whole-item {
+    font-size: 22px;
+}
+.items {
+    font-size: 19px;
+}
+.rupee {
+    font-size: 15px;
+}
+.detail {
+    font-size: 18px;
+}
+input[type="text"]
+{
+ border: 0;
+ background: #f7f8fc;
+ outline: 0;
+ width: 100%;
+}
+.location {
+ width: 14%;
+}
+.addcart {
+ background: #f7f8fc;
+}
+.map {
+    font-size: 27px;
+    border: 1px solid red;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+.pro {
+    font-size: 16px;
+}
+
+/* ProceedPayment */
+.cards {
+    background: #f4f4f4;
+    font-size: 14px;
+}
+.payment {
+    font-size: 29px;
+}
+.phonepe {
+    width: 7%;
+}
+.foodcard {
+    width: 18%;
+}
+
+/* Add new cards */
+input[type="text"]
+{
+    border: 0;
+    border-bottom: 1px solid red;
+    outline: 0;
+}
+
+.Securely {
+    font-size: 18px;
+    color: gray;
+}

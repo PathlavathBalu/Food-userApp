@@ -1,0 +1,37 @@
+body {
+    overflow-x: hidden;
+}
+.heart, .Search{
+    font-size: 23px;
+}
+.location {
+    font-size: 17px;
+   
+}
+.fa-rupee-sign {
+    color: #676767;
+}
+/* .most {
+    font-size: 13px;
+} */
+.rating {
+    border-top: 2px dotted  gray;
+   border-bottom: 2px dotted  gray;
+
+}
+.text {
+    font-size: 20px;
+}
+.add {
+    font-size: 13px;
+}
+.fa-rupee-sign {
+    font-size: 15px;
+}
+.cust {
+    color: #676767;
+    font-size: 11px;
+}
+.sweet {
+    font-size: 17px;
+}

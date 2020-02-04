@@ -1,0 +1,46 @@
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    background: #f7f8fc;
+}
+   
+.map-container-4 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 200px;
+}
+
+.map-container-4 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}  
+.allrestaurant {
+    width: 95%;
+    background: #8e481e;
+    font-size: 16px;
+}
+.addnew {
+    width: 95%;
+   
+    font-size: 14px; 
+}
+.location {
+ font-size: 20px;
+}
+.change {
+ font-size: 14px;
+}
+/* .text {
+ color: #676767;
+} */
+.label {
+    font-size: 15px;
+    color: #676767;
+}
+.save {
+    font-size: 17px;
+}

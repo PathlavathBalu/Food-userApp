@@ -1,0 +1,21 @@
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    background: #f7f8fc;
+}
+input[type="text"]
+    {
+        border: 0;
+        background: #f7f8fc;
+        outline: 0;
+        width: 100%;
+}
+.text {
+    font-size: 19px;
+}
+.google {
+    width: 17%;
+}
+.address {
+    color: #676767;
+}

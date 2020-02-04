@@ -1,0 +1,32 @@
+.top {
+    background: #f7f8fc;
+}
+.History {
+    font-size: 14px;
+    color: #000;
+}
+.text {
+    font-size: 19px;
+}
+.coupon {
+    font-size: 12px;
+    background: #f4f4f4;
+}
+.logo {
+    width: 20%;
+}
+.logo1 {
+    width: 18%;
+}
+.logo2 {
+    width: 7%;
+}
+.offer {
+    background: #fffae6;
+}
+.discount {
+    font-size: 17px;
+}
+.valid {
+    font-size: 15px;
+}

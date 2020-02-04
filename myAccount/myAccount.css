@@ -1,0 +1,45 @@
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    background: #f7f8fc;
+}
+.Account {
+    font-size: 18px;
+}
+.Offers {
+    width: 7%;
+}
+.help {
+    font-size: 17px;
+}
+.close {
+    width: 17%;
+}
+
+/*--  EDIT --*/
+input[type="text"]
+{
+    border: 0;
+    border-bottom: 1px solid red;
+    outline: 0;
+}
+.label {
+    font-size: 12px;
+}
+.update {
+    width: 85%;
+    background: #8e481e;
+    font-size: 18px;
+}
+
+/* -- Manage Addresses-- */
+.saved {
+    font-size: 13px;
+    background: #f4f4f4;
+}
+.most {
+    font-size: 13px;
+}
+.Address {
+    font-size: 15px;
+}

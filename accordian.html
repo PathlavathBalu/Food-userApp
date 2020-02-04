@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+      <style>
+         .main {
+    font-family: Arial;
+    width: 96%;
+    display: block;
+   
+  }
+  h3 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    /* padding: 2%; */
+    position: relative;
+    text-align: center;
+}
+.hi {
+    background: #fff;  
+}
+      </style>
+
+
+
+    
+    <title>User App</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-between fixed-top shadow head w-100 py-3">
+        <div>
+            <a href="index.html" class="nav-link text1  location">Kondapur <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+        <div>
+            <a href="#" class="nav-link text1">
+                <img src="img/promo.png" class="img-fluid"> Offers
+            </a>
+        </div>
+    </div>
+    <div style="margin-bottom: 80px;"></div>
+    <div class="row fixed-bottom border-top head1 shadow">
+        <div class="col-3">
+            <a href="#" class="">
+                <img src="img/swiggylogo.jpg" class="w-75" alt="xcfvg">
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="search.html" class="nav-link text-dark">
+                <i class="fa fa-search icon" aria-hidden="true"></i>
+                <small class="most">SEARCH</small>
+            </a>
+        </div>
+        <div class="col-2">
+            <a href="cart.html" class="nav-link text-dark">
+                <i class="fas fa-shopping-bag icon"></i>
+                <small class="most">CART</small>
+            </a>
+        </div>
+        <div class="col-4">
+            <a href="#" class="nav-link text-dark">
+                <i class="fas fa-user icon ml-4"></i>
+                <small class="most ml-2">ACCOUNT</small>
+            </a>
+        </div>
+
+
+    </div>
+    <div class="container-fluid">
+
+        <div style="margin-bottom: 80px;"></div>
+        <div class="border border-danger rounded all my-3">
+            <div class="d-flex justify-content-between">
+                <div class="mx-3 py-2">
+                    <h4 class="text-white font-weight-bold">All Restaurants</h4>
+                    <p class="text-light font-weight-normal">325 delivering to you</p>
+                </div>
+                <img src="img/allrestaurant.png" class="img-fluid">
+            </div>
+            <div>
+                <a href="allRestaurants.html" class="nav-link text-light font-weight-bold view">View all <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="my-4">
+            <span class="text-dark font-weight-bold location">
+                <img src="img/thumb.png" class="img-fluid"> Top Pics For You
+            </span>
+        </div>
+        <div id="bs4-multi-slide-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col">
+                            <a href="toppics.html">
+                                <img src="img/bakery.webp" class="img-fluid sides rounded" alt="1 slide"> <br>
+                                <p class="badge text-white font-weight-bold px-2 py-1 mx-2 mt-2">50% OFF</p>
+                                <p class="text mt-3">Keash Reddy sw.. <br>
+                                    <span class="most">34 min</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="Ricebowl.html">
+                                <img src="img/ricebowl7.webp" class="img-fluid sides rounded" alt="1 slide"> <br>
+                                <p class="badge text-white font-weight-bold px-2 py-1 mx-2 mt-2">50% OFF</p>
+                                <p class="text mt-3">Rice Bowl<br>
+                                    <span class="most">40 min</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="">
+                                <img src="img/cost.webp" class="img-fluid sides rounded" alt="1 slide"> <br>
+                                <p class="badge text-white font-weight-bold px-2 py-1 mx-2 mt-2">30% OFF</p>
+                                <p class="text mt-3">Kolkata House <br>
+                                    <span class="most">54 min</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <a href="PistaHouse.html">
+                                <img src="img/near1.webp" class="img-fluid sides rounded" alt="1 slide"> <br>
+                                <p class="badge text-white font-weight-bold px-2 py-1 mx-2 mt-2">30% OFF</p>
+                                <p class="text mt-3">Pista House Restaurant <br>
+                                    <span class="most">20 min</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="img/ice0.webp" class="img-fluid sides rounded" alt="1 slide"> <br>
+                                <p class="badge text-white font-weight-bold px-2 py-1 mx-2 mt-2">40% OFF</p>
+                                <p class="text mt-3">NIC Natural Ice Creams <br>
+                                    <span class="most">18 min</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="agraSweet.html">
+                                <img src="img/sw4.webp" class="img-fluid sides rounded" alt="1 slide"> <br>
+                                <p class="badge text-white font-weight-bold px-2 py-1 mx-2 mt-2">40% OFF</p>
+                                <p class="text mt-3">Agra Sweets Ba.. <br>
+                                    <span class="most">33 min</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#">
+                                <img src="img/sw3.webp" class="img-fluid sides rounded" alt="1 slide"> <br>
+                                <p class="badge text-white font-weight-bold px-2 py-1 mx-2 mt-2">50% OFF</p>
+                                <p class="text mt-3">Burger King <br>
+                                    <span class="most">40min</span>
+                                </p>
+                                <a href="#">
+                        </div>
+                        <div class="col">
+                            <a href="udipi.html">
+                                <img src="img/biryani.jpeg" class="img-fluid sides rounded" alt="1 slide">
+                                <p class="text">Udipi's Upahar <br>
+                                    <span class="most">46 min</span>
+                                </p>
+                                <a href="#">
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="img/fast4.webp" class="img-fluid sides rounded" alt="1 slide"> <br>
+                                <p class="badge text-white font-weight-bold px-2 py-1 mx-2 mt-2">10% OFF</p>
+                                <p class="text mt-3">Tibbs Frankie <br>
+                                    <span class="most">50 min</span>
+                                </p>
+                                <a href="#">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+                <li data-target="#slider" data-slide-to="3"></li>
+                <li data-target="#slider" data-slide-to="4"></li>
+                <li data-target="#slider" data-slide-to="5"></li>
+                <li data-target="#slider" data-slide-to="6"></li>
+                <li data-target="#slider" data-slide-to="7"></li>
+                <li data-target="#slider" data-slide-to="8"></li>
+                <li data-target="#slider" data-slide-to="9"></li>
+                <li data-target="#slider" data-slide-to="10"></li>
+                <li data-target="#slider" data-slide-to="11"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer1.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer2.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer3.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer4.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer5.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer6.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer7.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer8.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer9.png"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/mainoffer10.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 30px;"></div>
+        <div class="border border-light shadow p-2 mb-5">
+            <h4 class="text-dark font-weight-bold">Popular Brands</h4>
+            <p class="most">Most ordered from around your locality</p>
+            <div id="bs4-multi-slide-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <a href="sa.html">
+                                    <img src="img/Dominos.png" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">Domino's
+                                        Pizza <br>
+                                        <span class="text-secondary">30 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="sa.html">
+                                    <img src="img/Subway.png" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">Subway <br>
+                                        <span class="most">44 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#">
+                                    <img src="img/burgerking.png" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">Burger king<br>
+                                        <span class="most">40 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <a href="sa.html">
+                                    <img src="img/pizzahut1.png" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">Pizza Hut<br>
+                                        <span class="most">20 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="PistaHouse.html">
+                                    <img src="img/pista.jpeg" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">Pista House<br>
+                                        <span class="most">49 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="agraSweet.html">
+                                    <img src="img/sweetagra.jpg" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">Agra Sweets Banjara<br>
+                                        <span class="most">32 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <a href="sa.html">
+                                    <img src="img/paradise1.jpeg" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">Paradise Biryani<br>
+                                        <span class="most">50 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="sa.html">
+                                    <img src="img/kfclogo.png" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">KFC<br>
+                                        <span class="most">40 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="Ricebowl.html">
+                                    <img src="img/ricebowl.png" class="img-fluid sides rounded-circle border"
+                                        alt="1 slide">
+                                    <p class="text mt-3">Rice Bowl<br>
+                                        <span class="most">34 min</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-5 border-light shadow py-4">
+            <h5 class="text-dark font-weight-bold mx-3">In the Spotlight!
+                <a href="#" class="text float-right">SEE ALL <i
+                        class="fas fa-chevron-right rounded-circle border-dark bg-success px-2 py-1 text-light"></i></a>
+            </h5>
+            <p class="most mx-3">Explore sponsored partner brands</p>
+            <div class="Spotlight px-2">
+                <a href="Ricebowl.html" class="nav-link text-dark d-flex mb-2 shadow">
+                    <img src="img/biryani.jpeg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Rice Bowl <br>
+                            <small class="most">North Indian,South Indian</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .40min .<i class="fas fa-rupee-sign"></i>400 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/ice.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Amul Ice Cream<br>
+                            <small class="most">Ice Cream,Desserts</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid">40%off on ordersabove..
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.4 .32min .<i class="fas fa-rupee-sign"></i>150 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/chines2.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">AutoExpress-HotDogs <br>
+                            <small class="most">American,FastFood.Beve...</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.2 .40min .<i class="fas fa-rupee-sign"></i>200 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/biryani2.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Chaitanya FoodCourt <br>
+                            <small class="most">Biryani,chinese</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 50% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.2 .40min .<i class="fas fa-rupee-sign"></i>600 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/cost5.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Pepper Jack<br>
+                            <small class="most">Pizzas,Fast Food</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 60% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.4 .34min .<i class="fas fa-rupee-sign"></i>120 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="Ricebowl.html" class="nav-link text-dark d-flex">
+                    <img src="img/biryani.jpeg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Rice Bowl <br>
+                            <small class="most">North Indian,South Indian</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .50min .400 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="" class="nav-link text-dark d-flex">
+                    <img src="img/bakery.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Ks Bakers <br>
+                            <small class="most border-bottom">Bakery,Pizzas,Desserts</small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .48min .<i class="fas fa-rupee-sign"></i>340 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/biryani3.jpeg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">SriKanya <br>
+                            <small class="most border-bottom">Biryani,Andhra</small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.5 .22min .450 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/near1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">House Of Pulav <br>
+                            <small class="most">Andhra,South Indian,Biryani</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.4 .40min .<i class="fas fa-rupee-sign"></i>500 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/chines1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">chines Work <br>
+                            <small class="most">Chinese</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .44min .<i class="fas fa-rupee-sign"></i>350 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="mb-5 border-light shadow py-4">
+            <h5 class="text-dark font-weight-bold mx-3">Top Offers
+                <a href="#" class="text float-right">SEE ALL <i
+                        class="fas fa-chevron-right rounded-circle border-dark bg-success px-2 py-1 text-light"></i></a>
+            </h5>
+            <p class="most mx-3">Get up to 50% off from top eateri..</p>
+            <div class="Spotlight">
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/ice0.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Cream Stone<br>
+                            <small class="most">Ice Crea,Desserts</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 50% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.4 .44min .<i class="fas fa-rupee-sign"></i>350 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/biryani1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Homely<br>
+                            <small class="most">HomeFood,SouthIndian</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .22min .<i class="fas fa-rupee-sign"></i>200 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/ice1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">NIC Natural IceCream <br>
+                            <small class="most">Ice Cream,Desserts</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.4 .29min .<i class="fas fa-rupee-sign"></i>120 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/sea.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Punjabi Affaair <br>
+                            <small class="most">Punjabi,North Indain</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 50% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.4 .37min .<i class="fas fa-rupee-sign"></i>350 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/chines2.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Big Bowl<br>
+                            <small class="most">Chinese</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .31min .<i class="fas fa-rupee-sign"></i>200 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/sw4.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Agra Sweet House <br>
+                            <small class="most">North Indian,South Indian</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .50min .<i class="fas fa-rupee-sign"></i>400 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/non2.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">KFC <br>
+                            <small class="most border-bottom">North Indain,South Indian</small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .40min .<i class="fas fa-rupee-sign"></i>330 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/biryani3.jpeg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">SriKanya <br>
+                            <small class="most border-bottom">Biryani,Andhra</small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.5 .22min .<i class="fas fa-rupee-sign"></i>450 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/fast1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">RollsKing<br>
+                            <small class="most">Andhra,South Indian,Biryani</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .30min .<i class="fas fa-rupee-sign"></i>400 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/biryani3.jpeg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Istah-Sizzing Shawa <br>
+                            <small class="most">Arbian,Lebanese,</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .44min .<i class="fas fa-rupee-sign"></i>350 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="mb-5 border-light shadow py-4">
+            <h5 class="text-dark font-weight-bold mx-3">Newly Opened
+                <a href="#" class="text float-right">SEE ALL <i
+                        class="fas fa-chevron-right rounded-circle border-dark bg-success px-2 py-1 text-light"></i></a>
+            </h5>
+            <p class="most mx-3">Look who's here in your nighbo...</p>
+            <div class="Spotlight">
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/north3.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Zara Hi-Fi<br>
+                            <small class="most">North Indian,South Indian </small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.0 .34min .<i class="fas fa-rupee-sign"></i>550 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/fast4.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">The Food Town<br>
+                            <small class="most">Fast Food North Indian</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.1 .32min .<i class="fas fa-rupee-sign"></i>200 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/co6.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Amul Ice Cream<br>
+                            <small class="most">Ice Cream,Desserts</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.4 .20min .<i class="fas fa-rupee-sign"></i>150 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/north.jpg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Dusk 2 Down <br>
+                            <small class="most">North Indain,chines,fast..</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 50% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.4 .37min .<i class="fas fa-rupee-sign"></i>460 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/chines1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Tollgate<br>
+                            <small class="most">Cafe,Chinese</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .33min .<i class="fas fa-rupee-sign"></i>300 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/north1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Flame Multicuisin<br>
+                            <small class="most">North Indian,Biryani,chines</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 15% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.8 .44min .<i class="fas fa-rupee-sign"></i>300 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/near6.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Five Star Chicken<br>
+                            <small class="most border-bottom">American,FastFood</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 45% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .40min .<i class="fas fa-rupee-sign"></i>330 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/sw5.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">The Food Town <br>
+                            <small class="most border-bottom">Fast Food,North Indian</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 20% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.5 .22min .<i class="fas fa-rupee-sign"></i>450 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/fast3.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">RollsKing<br>
+                            <small class="most">SAMOSA nd MAGGI..</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 10% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.5 .30min .<i class="fas fa-rupee-sign"></i>158 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/near5.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Thickshake Factory <br>
+                            <small class="most">Desserts,Beverages</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .44min .<i class="fas fa-rupee-sign"></i>350 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="mb-5 border-light shadow py-4">
+            <h5 class="text-dark font-weight-bold mx-3">Promoted Restaurants</h5>
+            <div class="Spotlight">
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/non1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Palamuru Grill Chicken<br>
+                            <small class="most">Biryani,North Indian,chines </small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 50% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.0 .46min .<i class="fas fa-rupee-sign"></i>350 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/co1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Behrouz Biryani<br>
+                            <small class="most">Biryani,Mughlai</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.0 .43min .<i class="fas fa-rupee-sign"></i>400 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/sea2.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Rang De Basanti Dhaba<br>
+                            <small class="most">North Indian,Punjabi,Tandoor</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.0 .20min .<i class="fas fa-rupee-sign"></i>340 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/s.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Andhra Ruchulu <br>
+                            <small class="most">Andhra,South Indian</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 15% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.9 .60min .<i class="fas fa-rupee-sign"></i>300 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="udipi.html" class="nav-link text-dark d-flex">
+                    <img src="img/uidipi1.jpeg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Udipi's Upahar<br>
+                            <small class="most">South Indian,North Indian</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 10% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.6 .45min .<i class="fas fa-rupee-sign"></i>300 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/sea1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Aroma Multi Cuisine Rest...<br>
+                            <small class="most">Continental,North Indian,South...</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 15% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.8 .44min .<i class="fas fa-rupee-sign"></i>300 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="mb-5 border-light shadow py-4">
+            <h5 class="text-dark font-weight-bold mx-3">All Restaurants Nearby </h5>
+            <p class="most mx-3">Discover unique tastes near you</p>
+            <div class="Spotlight">
+                <a href="PistaHouse.html" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/pista1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Pista House Restaurants <br>
+                            <small class="most">Biryani,Hyderabadi,North Indian,South Indian</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 50% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .40min .<i class="fas fa-rupee-sign"></i>400 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/bakery2.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Keshav Reddy Sweets<br>
+                            <small class="most">Sweets,Bakery,Desserts</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid">50%off on orders above..
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .37min .<i class="fas fa-rupee-sign"></i>150 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/sea3.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Kolkata House<br>
+                            <small class="most">Sea Foods,North Indian,fast...</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.2 .37min .<i class="fas fa-rupee-sign"></i>200 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/sw7.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Santosh Dhaba Exclsive <br>
+                            <small class="most">North Indian,chinese</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 2.2 .30min .<i class="fas fa-rupee-sign"></i>300 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/near7.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">KFC<br>
+                            <small class="most">North Indian,Biryani</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.4 .34min .<i class="fas fa-rupee-sign"></i>420 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="Ricebowl.html" class="nav-link text-dark d-flex">
+                    <img src="img/biryani.jpeg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Rice Bowl <br>
+                            <small class="most">North Indian,South Indian</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .50min .400 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/bakery.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Ks Bakers <br>
+                            <small class="most border-bottom">Bakery,Pizzas,Desserts</small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .48min .<i class="fas fa-rupee-sign"></i>340 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/biryani3.jpeg" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">SriKanya <br>
+                            <small class="most border-bottom">Biryani,Andhra</small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.5 .22min .450 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/near1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">House Of Pulav <br>
+                            <small class="most">Andhra,South Indian,Biryani</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.4 .40min .<i class="fas fa-rupee-sign"></i>500 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/chines1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">chines Work <br>
+                            <small class="most">Chinese</small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 30% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.1 .44min .<i class="fas fa-rupee-sign"></i>350 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/near6.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Five Star Chicken<br>
+                            <small class="most border-bottom">American,FastFood</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 45% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.3 .40min .<i class="fas fa-rupee-sign"></i>330 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex">
+                    <img src="img/sw5.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">The Food Town <br>
+                            <small class="most border-bottom">Fast Food,North Indian</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 20% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 3.5 .22min .<i class="fas fa-rupee-sign"></i>450 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/veg1.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">Palamuru Grill Chicken<br>
+                            <small class="most">Biryani,North Indian,chines </small> <br>
+
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 50% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.0 .46min .<i class="fas fa-rupee-sign"></i>350 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="#" class="nav-link text-dark d-flex mb-2">
+                    <img src="img/co3.webp" class="img-fluid foods rounded">
+                    <div class="ml-2">
+                        <h5 class="">LunchBox<br>
+                            <small class="most">Biryani,north Indian</small> <br>
+                            <small class="text-success border-bottom">
+                                <img src="img/offer.png" class="img-fluid"> 40% off | Use coupon
+                            </small> <br>
+                            <small class="most">
+                                <i class="fas fa-star"></i> 4.0 .43min .<i class="fas fa-rupee-sign"></i>400 for two
+                            </small>
+                        </h5>
+                    </div>
+                </a>
+                <a href="allRestaurants.html" class="btn btn-success text-white font-weight-bold mx-3 px-5 py-2">See
+                    more Restaurants</a>
+            </div>
+        </div>
+
+      
+
+      <script>
+            $(document).ready(function() {
+              $(".slider-nav").slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+      
+                focusOnSelect: true
+              });
+      
+              $("a[data-slide]").click(function(e) {
+                e.preventDefault();
+                var slideno = $(this).data("slide");
+                $(".slider-nav").slick("slickGoTo", slideno - 1);
+              });
+            });
+          </script>
+          
+        <div class="main mb-5">
+                <div class="slider slider-nav shadow">
+                  <div class="">
+                        <a href="index.html" class="nav-link text-dark d-flex mb-2">
+                                <img src="img/ice.webp" class="img-fluid foods rounded">
+                                <div class="ml-2">
+                                    <h5 class="">Amul Ice Cream<br>
+                                        <small class="most">Ice Cream,Desserts</small> <br>
+                                        <small class="text-success border-bottom">
+                                            <img src="img/offer.png" class="img-fluid">40%off on ordersabove..
+                                        </small> <br>
+                                        <small class="most">
+                                            <i class="fas fa-star"></i> 4.4 .32min .<i class="fas fa-rupee-sign"></i>150 for two
+                                        </small>
+                                    </h5>
+                                </div>
+                            </a>
+                            <a href="#" class="nav-link text-dark d-flex mb-2">
+                                    <img src="img/ice.webp" class="img-fluid foods rounded">
+                                    <div class="ml-2">
+                                        <h5 class="">Amul Ice Cream<br>
+                                            <small class="most">Ice Cream,Desserts</small> <br>
+                                            <small class="text-success border-bottom">
+                                                <img src="img/offer.png" class="img-fluid">40%off on ordersabove..
+                                            </small> <br>
+                                            <small class="most">
+                                                <i class="fas fa-star"></i> 4.4 .32min .<i class="fas fa-rupee-sign"></i>150 for two
+                                            </small>
+                                        </h5>
+                                    </div>
+                                </a>
+
+                   </div>
+                  <div><h3>2</h3>
+                   <h3>2</h3>
+                </div>
+                  <div><h3>3</h3></div>
+                  <div><h3>4</h3></div>
+                  <div><h3>5</h3></div>
+                </div>
+                
+              </div>
+              <div style="margin-bottom: 189px;"></div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+  />
+
+    
+
+
+
+
+
+       
+
+</body>
+
+
+
+</html>
